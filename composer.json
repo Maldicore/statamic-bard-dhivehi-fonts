@@ -1,5 +1,6 @@
 {
     "name": "maldicore/statamic-bard-dhivehi-fonts",
+    "description": "Statamic Bard Dhivehi Fonts addon",
     "license": "MIT",
     "autoload": {
         "psr-4": {
