@@ -16,7 +16,7 @@ class DhivehiFontFamily extends Mark
 
     public function tag(): ?array
     {
-        $style = 'font-family: ';
+        $style = 'direction: rtl; font-family: ';
         switch ($this->mark->attrs->key) {
             case 'alh-mv-a-waheed':
                 $style .= 'MVAWaheed;';
