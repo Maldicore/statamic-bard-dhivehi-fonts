@@ -5,7 +5,7 @@ Statamic.$bard.extend(({mark}) => mark(new DhivehiFontFamily()));
 Statamic.$bard.buttons(() => {
     return {
         name: 'DhivehiFontFamily',
-        text: 'Font Family',
+        text: 'Dhivehi Font Family',
         command: 'classType',
         args: {
             key: ""

@@ -110,4 +110,6 @@ export default {
     @apply block text-left whitespace-nowrap;
 }
 
+
+
 </style>

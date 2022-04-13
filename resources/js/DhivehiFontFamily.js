@@ -63,7 +63,7 @@ export default class DhivehiFontFamily {
                 return [
                     "span",
                     {
-                        'class': 'maldicore-dhivehi-fonts ',
+                        'class': 'maldicore-dhivehi-fonts',
                         'data-class': mark.attrs.key,
                         'style': style
                     },

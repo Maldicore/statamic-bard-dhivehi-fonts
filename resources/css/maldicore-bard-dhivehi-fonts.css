@@ -10,11 +10,21 @@
     width: 16px;
     height: 16px;
     margin-top: 3px;
-    background-image: url('/vendor/maldicore-bard-font-family/icons/font.svg');
+    background-image: url('/vendor/maldicore-bard-dhivehi-fonts/icons/font.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+/*Fonts*/
+
+@font-face {
+        font-family: 'AFaruma';
+        src: url('/vendor/maldicore-bard-dhivehi-fonts/fonts/afaruma.woff2') format('woff2'),
+            url('/vendor/maldicore-bard-dhivehi-fonts/fonts/afaruma.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
 
 .maldicore-dhivehi-fonts.alh-mv-a-waheed {
     font-family: MVAWaheed;
