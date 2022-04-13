@@ -1,0 +1,25 @@
+{
+    "name": "maldicore/statamic-bard-dhivehi-fonts",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "maldicore\\StatamicBardDhivehiFonts\\": "src"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --tag=maldicore-bard-dhivehi-fonts"
+        ]
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Bard Dhivehi Fonts",
+            "description": "Statamic Bard Dhivehi Fonts addon"
+        },
+        "laravel": {
+            "providers": [
+                "maldicore\\StatamicBardDhivehiFonts\\ServiceProvider"
+            ]
+        }
+    }
+}
