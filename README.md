@@ -17,7 +17,7 @@ composer require maldicore/statamic-bard-dhivehi-fonts
 After installation run
 
 ``` bash
-php artisan vendor:publish --tag=maldicore-bard-font-family
+php artisan vendor:publish --tag=maldicore-bard-dhivehi-fonts
 ```
 
 ## How to Use
