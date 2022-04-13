@@ -20,43 +20,43 @@ export default class DhivehiFontFamily {
                 let style = 'font-family: ';
                 switch (mark.attrs.key) {
                     case 'alh-mv-a-waheed':
-                        $style .= 'MVAWaheed;';
+                        style += 'MVAWaheed;';
                     break;
 
                     case 'alh-faruma':
-                        $style .= 'Faruma;';
+                        style += 'Faruma;';
                     break;
 
                     case 'alh-a-faruma':
-                        $style .= 'AFaruma;';
+                        style += 'AFaruma;';
                     break;
 
                     case 'alh-mv-iyyu':
-                        $style .= 'MVIyyu;';
+                        style += 'MVIyyu;';
                     break;
 
                     case 'alh-mv-galan':
-                        $style .= 'MVGalan;';
+                        style += 'MVGalan;';
                     break;
 
                     case 'alh-mv-faseyha':
-                        $style .= 'MVFaseyha;';
+                        style += 'MVFaseyha;';
                     break;
 
                     case 'alh-mv-elaaf':
-                        $style .= 'MVElaaf;';
+                        style += 'MVElaaf;';
                     break;
 
                     case 'alh-mv-emaan-xp':
-                        $style .= 'MVEmaanXP;';
+                        style += 'MVEmaanXP;';
                     break;
 
                     case 'alh-mv-amaan-xp':
-                        $style .= 'MVAmaanXP;';
+                        style += 'MVAmaanXP;';
                     break;
 
                     case 'alh-faagathi-dheli':
-                        $style .= 'FaagathiDheli;';
+                        style += 'FaagathiDheli;';
                     break;
                 }
 
