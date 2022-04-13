@@ -17,7 +17,7 @@ export default class DhivehiFontFamily {
                 }
             ],
             toDOM: (mark) => {
-                let style = 'direction: rtl; font-family: ';
+                let style = 'direction: rtl; display: block; font-family: ';
                 switch (mark.attrs.key) {
                     case 'alh-mv-a-waheed':
                         style += 'MVAWaheed;';
